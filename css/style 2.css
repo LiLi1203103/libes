@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	margin: 0;
+	color: black;
+}
+
+.container{
+	width: 80%;
+	margin:0px auto;
+	color:black;
+
+}
+
+.img-100{
+	width: 100%;
+	height: auto
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	background-color: #FAA93E;
+}
+
+.logo{
+	float: left;
+	padding-left: 100px;
+}
+	
+.menu{
+	float: right;
+	padding-top: 20px;
+	padding-right: 100px;
+}
+
+.menu a{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+    font-weight: bold;
+	padding: 20px 20px;
+}
+
+.menu a:hover{
+	color:red;
+}
+
+/*xong phan heading*/
+
+main{
+	width: 100%;
+	min-height:500px;
+	clear: both
+}
+
+.w-25{
+	width: 25%;
+	padding: 15px;
+	float: left;
+	margin: 20px 0px;
+}
+
+.vien{
+	width: 100%;
+	min-height: 300px;
+	border: 2px solid blue;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	
+}
+
+.tour{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: blue;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.gia{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.bo-goc{
+	border-radius: 10px;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #FAA93E;
+	clear: both;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+h1{
+	color: black;
+	
+}
+
+.form-control{
+	padding: 15px;
+	margin-bottom: 20px;
+	width: 100%;
+	border: 1px solid grey;
+	border-radius: 2px;
+}
+.btn{
+	padding: 10px;
+	background-color: royalblue;
+	cursor: pointer;
+	border: 1px solid grey;
+	border-radius: 5px;
+	color: white
+}
+
+.btn:hover{
+	background-color: blue;
+}
+
+.w-40{
+	width: 40%;
+	padding: 15px;
+	float: left
+}
+
+.w-60{
+	width: 60%;
+	padding: 15px;
+	float: left
+}
+
+.text-xanh{
+	color: blue;
+}
+
+.gach-chan{
+	border-bottom: 2px solid blue;
+}
+
+.vien-xam{
+	width: 100%;
+	min-height: 300px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.text-den{
+	color: black
+}
